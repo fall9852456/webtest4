@@ -1,0 +1,371 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    text-align:center;
+    margin: 0%;
+    font-family:'Raleway',cursive;
+    overflow-x: hidden;
+}
+.logoicon{
+    display: flex;
+}
+.icon{
+display: flex;
+font-family:'Raleway',cursive;
+margin-top: 20px;
+width: 110px;
+height: 30px;
+}
+.search{
+    padding: 5px 7px;
+    width: 110px;
+    height: 35px;
+}
+.logo{
+    padding: 5px 7px;
+    margin-right: 1150px;
+    width: 110px;
+    height: 70px;
+}
+.login{
+    margin-top: 5px;
+    padding: 5px 7px;
+    font-size: 20px;
+}
+.menu1{
+    margin-top: 5px;
+    padding: 5px 7px;
+    font-size: 20px;
+}
+.menu{
+    width: 110px;
+    height: 35px;
+    padding: 5px 7px;
+}
+
+
+.logo:hover {
+    color: gray;
+}
+.login:hover {
+    color: gray;
+}
+.menu1:hover {
+    color: gray;
+}
+.bg{
+    width:1517px;
+    height: 4000px;
+    background-color: #D9D9D9; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.headerpicture{ 
+    width:100%;
+    margin-bottom: 30px;
+}
+.hr{
+    height: 1px;
+    width:1517px;
+    background-color: #ffffff;
+}
+.main{
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.new{
+    display: flex;
+   text-align: left;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+.the{
+    display: flex;
+   text-align: left;
+    width: 100%;
+    height: 80px;
+    font-size: 40px;
+}
+.mainpage{
+    display: flex;
+    margin-top: 50px;
+}
+.story{
+
+    letter-spacing: 4px;
+}
+.icon2{
+    margin: 0px;
+    display: flex;
+    margin-left: 400px; 
+}
+.tw{
+   margin-right: 20px;
+    display: flex;
+    height: 20px;
+    width: 20px;
+}
+.hr2{
+    height: 1px;
+    width: 100%;
+    margin-top:10px ;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+.publish{
+    margin-top:10px;
+    display: flex;
+    letter-spacing: 3px;
+    color:gray
+    
+}
+.firstcontent{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.second{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.secondcontent{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.doublebubble{
+    display: flex;
+    margin-bottom: 30px;
+}
+.bubbletea{
+    height: 70%;
+    width: 70%;
+    margin-right: 30px;
+}
+.bubble{
+    height:435px;
+    width: 300px;
+}
+.third{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.thirdcontent{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.picture2{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+footer{
+
+    text-align: center;
+    margin: 0 ;
+}
+.bg2{
+    margin-left: auto;
+    margin-right: auto;
+    width:1517px;
+    height: 1800px;
+    background-color: #393939; 
+}
+.gofurther{
+    font-family: Arial;
+    font-size: larger;
+    color: #ffffff;
+    padding: 80px;
+}
+.connect{
+    display: flex;
+    justify-content: space-around;
+}
+.further{
+    width:300px ;
+    height: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #c9c5c5;
+}
+.connect2{
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    display: flex;
+    width:400px ;
+    height: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.see{
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 670px;
+    margin-bottom: 80px;
+    background-color: #585858;
+    color: #ffffff;
+    border:none;
+    border-radius: 10px;
+}
+.see:hover{
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 670px;
+    margin-bottom: 80px;
+    background-color: #202020;
+    box-shadow: inset 170px 0px 0px 0px #fcfcfc;
+    color: #6b6b6b;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.signpage{
+    width:1517px;
+    height:400px ;
+    background-color: rgb(247, 111, 134);
+}
+.best{
+    font-size: larger;
+   color: #ffffff;
+    padding-top:150px ;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 20px;
+    padding: 20px;
+    margin-left: 590px;
+    margin-top: 80px;
+    background-color:#f2eeee;
+    border:none;
+    border-radius: 10px;
+}
+.sign:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 20px;
+    padding: 20px;
+    margin-left: 590px;
+    margin-top: 80px;
+    background-color: #c9c5c5;
+    box-shadow: inset 400px 0px 0px 0px #585858;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.foot{
+    display: flex;
+    width:1517px;
+    height: 400px;
+    padding-top: 50px;
+    justify-content:space-around;
+}
+.legal{
+    color: #ffffff;
+    text-align: left;
+}
+.our{
+    color: #ffffff;
+    text-align: left;
+}
+.join{
+    color: #ffffff;
+    text-align: left;
+}
+.follow{
+    color: #ffffff;
+    text-align: left;
+}
+.icon3{
+    display: flex;
+}
+.ig{
+
+    height: 24px;
+    width: 24px;
+    padding-right: 20px;
+}
+.yt{
+    height: 24px;
+    width: 24px;
+    padding-right: 20px;
+}
+.tw{
+    height: 24px;
+    width: 24px;
+    margin: 0;
+    padding-right: 20px;
+}
+.fb{
+    height: 24px;
+    width: 24px;
+    padding-right: 20px;
+}
+
+.hr2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 1px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.last{
+    display: flex;
+    width:1517px;
+    height: 100px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    display: flex;
+    color: #ffffff;
+    width: 200px;
+    height: 150px;
+}
+.copy{
+    display: flex;
+    margin-left: 200px;
+    width: 1000px;
+color: #ffffff;
+
+}

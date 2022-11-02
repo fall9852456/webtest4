@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style3.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="/js/script.js"></script>
+<style>.sk-folding-cube {
+    margin: 20px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+  }
+  
+  .sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); 
+  }
+  .sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(168, 167, 167);
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+            animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+  }
+  .sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+            transform: scale(1.1) rotateZ(90deg);
+  }
+  .sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+            transform: scale(1.1) rotateZ(180deg);
+  }
+  .sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+            transform: scale(1.1) rotateZ(270deg);
+  }
+  .sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+  }
+  .sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s; 
+  }
+  .sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+  }
+  @-webkit-keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    } 
+  }
+  
+  @keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    }
+  }
+  .loading-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    z-index: 9999;
+  }
+  .loading{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+  }
+  </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="loading-wrapper">
+        <div class="loading sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <div class="bg">
+        <header>
+          <div class="logoicon">
+            <a href="./index.html"><img class="logo" src="./image/312921697_1288344255323543_9087923886756924508_n.png"></a>
+            <div class="icon">
+                <img class="search" src="./image/loupe.png">
+                <div class="login">LOGIN</div>
+                <div class="menu1">MENU</div>
+                <img class="menu" src="./image/menu.png">
+            </div>
+          </div>
+            <div class="hr"></div>
+        </header>
+        <container>
+            <div class="main">
+                <img class="headerpicture" src="./image/珍奶.jpg">
+                <div class="new">- NEW -</div>
+                <div class="the">The rise of bubble tea, one of Taiwan's most<br> beloved beverages</div>
+                <div class="mainpage">
+                    <div class="story">STORY AND PHOTOGRAPHS BY ROLAND HILGARTNER</div>
+                    <div class="icon2">
+                        <a href="https://twitter.com/"><img class="tw" src="./image/twitter.png"></a>
+                        <a href="https://telegram.org/"><img class="tw" src="./image/telegram.png"></a>
+                        <a href="https://twitter.com/"><img class="tw" src="./image/gmail.png"></a>
+                    </div>
+                </div>
+                <div class="hr2"></div>
+                <div class="publish">PUBLISHED OCTOBER 30, 2022 • 10 MIN READ</div>
+                <div class="firstcontent">
+                    The texture of the bubble tea base is usually rather creamy due to the dairy,<br> although some bubble tea lovers exclude the milk and go for fruity or lactose-<br>free dairy alternatives.<br><br> Bubble tea can have many different toppings, but the most popular topping is <br>tapioca pearls (or boba).<br><br>Tapioca pearls are slightly chewy, yet soft. They are just so satisfying to bite<br> into - and millions of bubble tea lovers around the world would agree! In case<br> you're wondering what Tapioca looks like, the photo below shows an image of<br> a milk tea with tapioca!
+                </div>
+                <div class="second">  How Dose Bubble Tea Taste like? </div>
+                <div class="secondcontent">
+                    Depending on the base and toppings you choose, bubble tea taste can vary<br> widely (one of the reasons people love it). The most popular bubble tea drink<br> is a classic milk tea (black tea, milk, sweetener, and pearls) which tastes<br> sweet, creamy, and silky because of the milk, and has a nice chewy texture<br> because of the tapioca pearls.<br><br> A common alternative to milk teas is fruit tea. One of the most popular fruit <br>teas, passionfruit green tea, features passion fruit juice (fresh or from syrup)<br> coupled with tea to provide a refreshing and fruity taste. Fruit teas come in a<br> wide selection of flavors, and can even be requested in slushy form. In case<br> you're not a big tapioca fan, a great topping pairing for a fruit tea would be<br> coconut or lychee jelly, which introduces a chewy but fruity texture that<br> complements fruit teas really well.<br><br> Bubble tea is the perfect dessert that combines a thirst-quenching drink, with<br> a chewy add-on!
+                </div>
+                <div class="doublebubble">
+                    <img class="bubbletea" src="./image/Bubble_colour_1000x557.jpg">
+                    <img class="bubble" src="./image/p1.jpg">
+                </div>
+                <div class="third">
+                    The history
+                </div> 
+                <div class="thirdcontent">
+                    Although there are several tea vendors that claim to have been the first to <br>create this now world-famous drink, the most credible is Liu Han-Chieh of<br> Chun Shui Tang Teahouse in Taichung. In the early 80s, he noted that<br> Japanese people enjoyed drinking cold coffee and so he tried out the idea<br> with tea. His cold teas were so popular that his business expanded and he<br> opened several new branches throughout the city.<br><br> The bubbles or pearls arrived on the scene in 1988 when during a meeting Liu<br> poured some tapioca balls into his iced teas. Everyone loved it, and so the<br> well-loved drink was born.<br><br> Another popular theory is that Tu Tsong-he of the Hanlin Teahouse invented<br> the drink on a whim. He used white tapioca balls which resembled pearls<br> which is allegedly where the name originated.<br><br> Wherever it started, there’s no doubt that it took the Taiwanese tea industry<br> by storm and forced many traditional vendors to adapt their menus to include<br> this new and popular drink. 
+                </div>
+                <img class="picture2" src="./image/vs.jpg">
+            </div>
+        </container>
+</body>
+<footer>
+    <div class="bg2">
+        <div class="gofurther">GO FURTHER</div>
+        <div class="connect">
+          <img class="further" src="./image/travel.jpg">
+          <img class="further" src="./image/culture.jpg">
+          <img class="further" src="./image/politics.jpg">
+          <img class="further" src="./image/footer.jpg">
+        </div>
+        <div class="connect2">
+          <div class="text">Travel</div>
+          <div class="text">History and Culture</div>
+          <div class="text">Politics</div>
+          <div class="text">Footer Inbox</div> 
+        </div>
+        <div class="see">SEE MORE</div>
+        <div class="signpage">
+            <div class="best">THE BEST OF TAIWANESE FOODDELIVERED TO YOUR INBOX</div>
+            <div class="sign">SIGN UP</div>
+        </div>
+        <div class="foot">
+            <div class="legal">LEGAL<br><br>Terms of Use<br><br>Privacy Policy</div>
+            <div class="our">OUR SITE<br><br>Attend a Event<br><br>Buy Maps<br><br>Watch TV<br><br>Support our Mission</div>
+            <div class="join">JOIN US<br><br>Subscribe<br><br>Customer Service<br><br>Renew Subscription</div>
+            <div class="follow">FOLLOW US<br><br>
+                <div class="icon3">
+                    <a href="https://www.instagram.com/"><img class="ig" src="./image/instagram.png"></a>
+                    <a href="https://www.youtube.com/"><img class="yt" src="./image/youtube.png"></a>
+                    <a href="https://twitter.com/"><img class="tw" src="./image/twitter.png"></a>
+                    <a href="https://www.facebook.com/"><img class="fb" src="./image/facebook.png"></a>
+                </div>          
+            </div>
+        </div>
+        <div class="hr2"></div>
+        <div class="last">
+          <img class="logo2" src="./image/312921697_1288344255323543_9087923886756924508_n.png">
+          <div class="copy">Copyright © 2003-2022 Best Of Taiwan SocietyCopyright © 2003-2022 Best Of Taiwan Partners, HL. All rights reserved</div>
+        </div>
+    </div>
+</footer>
+</html>

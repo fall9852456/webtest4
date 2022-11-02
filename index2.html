@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="/js/script.js"></script>
+<style>.sk-folding-cube {
+    margin: 20px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+  }
+  
+  .sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); 
+  }
+  .sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(168, 167, 167);
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+            animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+  }
+  .sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+            transform: scale(1.1) rotateZ(90deg);
+  }
+  .sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+            transform: scale(1.1) rotateZ(180deg);
+  }
+  .sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+            transform: scale(1.1) rotateZ(270deg);
+  }
+  .sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+  }
+  .sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s; 
+  }
+  .sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+  }
+  @-webkit-keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    } 
+  }
+  
+  @keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    }
+  }
+  .loading-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    z-index: 9999;
+  }
+  .loading{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+  }
+  </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="loading-wrapper">
+        <div class="loading sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <div class="bg">
+        <header>
+          <div class="logoicon">
+            <a href="./index.html"><img class="logo" src="./image/312921697_1288344255323543_9087923886756924508_n.png"></a>
+            <div class="icon">
+                <img class="search" src="./image/loupe.png">
+                <div class="login">LOGIN</div>
+                <div class="menu1">MENU</div>
+                <img class="menu" src="./image/menu.png">
+            </div>
+          </div>
+            <div class="hr"></div>
+            <div class="header1">
+                <div class="mainpicture">- NEW -</div>
+                <div class="mainpicture2">What Sunshine Tastes Like … <br><br>If It Was a Cake</div>
+            </div>
+        </header>
+
+
+
+        <article class="mainpoint">
+                <div class="mainpage">
+                    <div class="story">STORY AND PHOTOGRAPHS BY ROLAND HILGARTNER</div>
+                    <div class="icon2">
+                        <a href="https://twitter.com/"><img class="tw" src="./image/twitter.png"></a>
+                        <a href="https://telegram.org/"><img class="tw" src="./image/telegram.png"></a>
+                        <a href="https://twitter.com/"><img class="tw" src="./image/gmail.png"></a>
+                    </div>
+                </div>
+                <div class="hr2"></div>
+                <div class="publish">PUBLISHED OCTOBER 30, 2022 • 10 MIN READ</div>
+                <div class="firstcontent">
+                    We all know that Taiwan is a kingdom of fruit. The tropical zone guarantees<br> Taiwan with a mild climate and fertile land to develop agriculture. You can find<br> fruits in different seasons. Thanks to the technology, the farmers improve the <br>quality of fruits so they grow bigger, sweeter and juicier year by year. If you<br> have ever come to Taiwan, you may be amazed by the delicious fruits and <br>want to share them with your family and friends when you are back in your<br> hometown. However, sometimes it is forbidden to carry fresh farm products<br> back to your country.
+                </div>
+                <div class="second"> Pineapple Cake－The Must Try in Taiwan </div>
+                <div class="secondcontent">
+                        Don’t worry, you can still have some alternative for the souvenir. Taiwanese<br> are so creative so they make fruits into kinds of products. If you can only take<br> one thing as gift to give away, the answer should be pineapple cake with no <br>doubt. It is not only tasty but also a symbol of good sign.<br><br> Taiwanese pineapple cakes hold the secret to prosperity, and it’s right in the<br> name. In the Hokkien dialect of Taiwanese, the word for pineapple, ong lai, is<br> pronounced the same as the phrase “prosperity has arrived.” Because of this,<br> the pineapple is a symbol of luxury and hospitality, and a popular feng shui<br> symbol of wealth, fortune, and prosperity in Taiwan.<br><br>So I am sure that if you give pineapple cakes to your friends and tell them the<br> meaning of this pastry, they will love you more!
+                </div>
+                <img class="picture" src="./image/How-to-Make-Taiwanese-Pineapple-Cakes-Kavey-Eats-4866.jpg">
+                <div class="third">
+                    How Does It Taste? 
+                </div> 
+                <div class="thirdcontent">
+                You may wonder in your mind－is the pineapple cake we are talking about here<br> the sticky, cloying upside-down American pineapple cake?<br><br> Actually, it is more like a tart than a cake. It is similar to Fig Newton but far<br> more superior. A pineapple cake is covered with crispy skin. The moist, sour<br> jam in the middle perfectly balances the dry, buttery coat outside. This<br> revolutionary combination has conquered the appetite of people all over the<br> world. However, it is only available in Taiwan so far. That’s why we strongly<br> recommend you to write it down to your to-buy list in Taiwan.<br><br> As a Taiwanese, it may be too subjective to tell you how good it tastes. So we <br>got a video for you－When the New Yorkers taste pineapple cakes for the first time.
+                </div>
+                <div class="fourth">
+                    The History of Pineapple cake 
+                </div>
+                <div class="fourthcontent">
+                    What has made Taiwan’s pineapple cake so popular? The pastry’s celebrity<br> status in Asia can be attributed at least in part to Taiwan’s expertise in<br> pineapple production.<br><br> The fruit was grown on Taiwan as early as the mid-17th century and became a<br> key industry during the Japanese colonial time (1895-1945).<br><br> The island’s pineapple industry peaked in 1971 as annual production volume<br> reached 4 million cases, the most in the world. Yet Taiwan would not hold the<br> world’s pineapple production crown for long. With Taiwan’s transformation to<br> an industrialized economy, the manufacturing sector boomed, drawing<br> workers away from farms to the cities.<br><br> Meanwhile, from 1973 on, Southeast Asian countries moved into the pineapple<br> cultivation business. Because their cost of labor was so low, they were able to<br> undercut Taiwan on the global market with cheaper pineapple.<br><br> From the 1970s through the mid-2000s, Taiwan focused on the domestic<br> market. Nobody can say exactly when the pineapple cake was born – some say<br> it has more than a hundred years of history – but the growing surplus of<br> available pineapple in 1970s Taiwan made it necessary to find ways to use up <br>the supply.<br><br> Eventually, pastry chefs settled on the pineapple cake. With crumbly, buttery<br> crust on the outside and a fruity jam, it successfully consumed the surplus<br> pineapple and capture Taiwanese’ attention to create enormous business<br> opportunities.
+                </div>
+                <img class="picture2" src="./image/Products190131104120519.jpg">
+        </article>
+    </div>
+</body>
+        <footer>
+            <div class="bg2">
+                <div class="gofurther">GO FURTHER</div>
+                <div class="connect">
+                  <img class="further" src="./image/travel.jpg">
+                  <img class="further" src="./image/culture.jpg">
+                  <img class="further" src="./image/politics.jpg">
+                  <img class="further" src="./image/footer.jpg">
+                </div>
+                <div class="connect2">
+                  <div class="text">Travel</div>
+                  <div class="text">History and Culture</div>
+                  <div class="text">Politics</div>
+                  <div class="text">Footer Inbox</div> 
+                </div>
+                <div class="see">SEE MORE</div>
+                <div class="signpage">
+                    <div class="best">THE BEST OF TAIWANESE FOODDELIVERED TO YOUR INBOX</div>
+                    <div class="sign">SIGN UP</div>
+                </div>
+                <div class="foot">
+                    <div class="legal">LEGAL<br><br>Terms of Use<br><br>Privacy Policy</div>
+                    <div class="our">OUR SITE<br><br>Attend a Event<br><br>Buy Maps<br><br>Watch TV<br><br>Support our Mission</div>
+                    <div class="join">JOIN US<br><br>Subscribe<br><br>Customer Service<br><br>Renew Subscription</div>
+                    <div class="follow">FOLLOW US<br><br>
+                        <div class="icon3">
+                            <a href="https://www.instagram.com/"><img class="ig" src="./image/instagram.png"></a>
+                            <a href="https://www.youtube.com/"><img class="yt" src="./image/youtube.png"></a>
+                            <a href="https://twitter.com/"><img class="tw" src="./image/twitter.png"></a>
+                            <a href="https://www.facebook.com/"><img class="fb" src="./image/facebook.png"></a>
+                        </div>          
+                    </div>
+                </div>
+                <div class="hr2"></div>
+                <div class="last">
+                  <img class="logo2" src="./image/312921697_1288344255323543_9087923886756924508_n.png">
+                    <div class="copy">Copyright © 2003-2022 Best Of Taiwan SocietyCopyright © 2003-2022 Best Of Taiwan Partners, HL. All rights reserved</div>
+                </div>
+            </div>
+        </footer>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="./js/script.js"></script>
+<style>.sk-folding-cube {
+    margin: 20px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+  }
+  
+  .sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); 
+  }
+  .sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(168, 167, 167);
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+            animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+  }
+  .sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+            transform: scale(1.1) rotateZ(90deg);
+  }
+  .sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+            transform: scale(1.1) rotateZ(180deg);
+  }
+  .sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+            transform: scale(1.1) rotateZ(270deg);
+  }
+  .sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+  }
+  .sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s; 
+  }
+  .sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+  }
+  @-webkit-keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    } 
+  }
+  
+  @keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    }
+  }
+  .loading-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    z-index: 9999;
+  }
+  .loading{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+  }
+  </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="loading-wrapper">
+        <div class="loading sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <div class="bg">
+        <header>
+            <div class="logoicon">
+                <a href="./index.html"><img class="logo" src="./image/312921697_1288344255323543_9087923886756924508_n.png"></a>
+                <div class="icon">
+                    <img class="search" src="./image/loupe.png">
+                    <div class="login">LOGIN</div>
+                    <div class="menu1">MENU</div>
+                    <img class="menu" src="./image/menu.png">
+                </div>
+            </div>
+            <div class="hr"></div>
+            <img class="headerpicture" src="./image/header.jpg">
+        </header>
+        <container>
+            <div class="container1">
+                <div class="danbin">
+                    <a href="./index2.html"><img class="picture1" src="./image/pineapple.jpg"></a>
+                    <div class="c2">
+                        <img class="picture2" src="./image/冰淇淋.jpg">
+                        <div class="content2">
+                            <div class="content-1">--NEW--</div>
+                            <div class="content-2">From Tainan to Tokyo,<br> His Ice Cream is<br> Asia’s Answer to<br> Häagen-Dazs</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="anniumi">
+                    <div class="c3">
+                        <img class="picture3" src="./image/小卷米粉.jpg">
+                        <div class="content3">
+                            <div class="content-1">--NEW--</div>
+                            <div class="content-2">Squid Rice Noodles,<br> Which Taste Amazing<br> and Bring Pleasant</div>
+                        </div>
+                    </div>
+                    <div class="c4">
+                        <img class="picture4" src="./image/安平豆花.jpg">
+                        <div class="content4">
+                            <div class="content-1">--NEW--</div>
+                            <div class="content-2">Anping Bean Jelly--<br> Tainan’s Super<br> Smooth Tau Hway</div>
+                        </div>
+                    </div>
+                    <div class="c5">
+                        <img class="picture5" src="./image/牛肉湯.jpg">
+                        <div class="content5">
+                            <div class="content-1">--NEW--</div>
+                            <div class="content-2"> 4 Must-try Street <br>Foods in Tainan to<br> Get Your Munch on</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ad">
+                <div class="container2">
+                    <a href="./index3.html"><img class="main" src="./image/珍奶.jpg"></a>
+                    <div class="PC">
+                        <img class="Picture" src="./image/阿松割包-e1623498570885-850x639.jpg">
+                        <div class="Content">
+                            <div class="Content-1">--POPULAR--</div>
+                            <div class="Content-2">Anping Bean Jelly--<br> Tainan’s Super<br> Smooth Tau Hway</div>
+                        </div>
+                    </div>
+                    <div class="PC">
+                        <img class="Picture" src="./image/魚皮湯.jpg">
+                        <div class="Content">
+                            <div class="Content-1">--POPULAR--</div>
+                            <div class="Content-2">Traditional Taiwanese Snack,<br> Tainan Pork Heart<br> Noodle</div>
+                        </div>
+                    </div>
+                    <div class="PC">
+                        <img class="Picture" src="./image/鱔魚意麵.jpg">
+                        <div class="Content">
+                            <div class="Content-1">--POPULAR--</div>
+                            <div class="Content-2">Eel Noodle- <br>Taiwanese<br> Comfort Food</div>
+                        </div>
+                    </div>
+                    <div class="PC">
+                        <img class="Picture" src="./image/鹹粥.jpg">
+                        <div class="Content">
+                            <div class="Content-1">--POPULAR--</div>
+                            <div class="Content-2">Taiwanese<br> Delicacies #5:<br> Savoury Rice<br> Pudding</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="adf">dfdfdfdf</div>
+            </div>
+            <div class="reload">
+                <img class="re" src="./image/8666728_refresh_cw_icon.png">
+                <div class="load">LOAD MORE</div>
+            </div>
+        </container> 
+    </div>
+
+</body>
+        <footer>
+            <div class="bg2">
+                <div class="gofurther">GO FURTHER</div>
+                <div class="connect">
+                    <img class="further" src="./image/travel.jpg">
+                    <img class="further" src="./image/culture.jpg">
+                    <img class="further" src="./image/politics.jpg">
+                    <img class="further" src="./image/footer.jpg">
+                </div>
+                <div class="connect2">
+                    <div class="text">Travel</div>
+                    <div class="text">History and Culture</div>
+                    <div class="text">Politics</div>
+                    <div class="text">Footer Inbox</div> 
+                </div>
+                <div class="see">SEE MORE</div>
+                <div class="signpage">
+                    <div class="best">THE BEST OF TAIWANESE FOODDELIVERED TO YOUR INBOX</div>
+                    <div class="sign">SIGN UP</div>
+                </div>
+                <div class="foot">
+                    <div class="legal">LEGAL<br><br>Terms of Use<br><br>Privacy Policy</div>
+                    <div class="our">OUR SITE<br><br>Attend a Event<br><br>Buy Maps<br><br>Watch TV<br><br>Support our Mission</div>
+                    <div class="join">JOIN US<br><br>Subscribe<br><br>Customer Service<br><br>Renew Subscription</div>
+                    <div class="follow">FOLLOW US<br><br>
+                        <a href="https://www.instagram.com/"><img class="ig" src="./image/instagram.png"></a>
+                        <a href="https://www.youtube.com/"><img class="yt" src="./image/youtube.png"></a>
+                        <a href="https://twitter.com/"><img class="tw" src="./image/twitter.png"></a>
+                        <a href="https://www.facebook.com/"><img class="fb" src="./image/facebook.png"></a>
+                    
+                    </div>
+                </div>
+                <div class="hr2"></div>
+                <div class="last">
+                    <img class="logo2" src="./image/312921697_1288344255323543_9087923886756924508_n.png">
+                    <div class="copy">Copyright © 2003-2022 Best Of Taiwan SocietyCopyright © 2003-2022 Best Of Taiwan Partners, HL. All rights reserved</div>
+                </div>
+            </div>
+        </footer>
+</html>
