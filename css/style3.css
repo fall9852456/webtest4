@@ -56,7 +56,7 @@ height: 30px;
 }
 .bg{
     width:1517px;
-    height: 4000px;
+    height: 5000px;
     background-color: #D9D9D9; 
     margin-left: auto;
     margin-right: auto;
@@ -130,6 +130,7 @@ height: 30px;
     text-align: left;
     font-size: 22px;
     letter-spacing: 2px;
+    line-height: 40px;
 }
 .second{
     display: flex;
@@ -147,6 +148,7 @@ height: 30px;
     margin-bottom: 20px;
     font-size: 22px;
     letter-spacing: 2px;
+    line-height: 40px;
 }
 .doublebubble{
     display: flex;
@@ -177,6 +179,7 @@ height: 30px;
     margin-bottom: 20px;
     font-size: 22px;
     letter-spacing: 2px;
+    line-height: 40px;
 }
 .picture2{
     height: 100%;
