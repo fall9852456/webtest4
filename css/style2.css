@@ -291,10 +291,12 @@ footer{
 .signpage{
     width:1517px;
     height:400px ;
-    background-color: rgb(247, 111, 134);
+    background-image: url(../image/footer.jpg);
+    background-size:100% 100% ;
 }
 .best{
-    font-size: larger;
+    font-size: 50px;
+    font-weight: bold;
    color: #ffffff;
     padding-top:150px ;
 }
